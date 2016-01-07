@@ -1,0 +1,1559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03671FBFAB3709D784C7DAF2D35069D1 /* onepassword-navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A46F77853A5C17A7657AA934114666 /* onepassword-navbar@2x.png */; };
+		0498091427BE5C7901134D54D0D100F7 /* onepassword-button-light@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB7E2A805EC8B150B069C443B0B16EA /* onepassword-button-light@3x.png */; };
+		05E98030009F08D5CBEFB461FC1107EB /* onepassword-navbar-light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CC47FB16B114DD98A3BE7806A97369A /* onepassword-navbar-light@2x.png */; };
+		093279885A58A17018B1EDC285E1AD63 /* onepassword-extension@3x~compact.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DDAE2B64F94B1F3DC8830E5776BB6DA /* onepassword-extension@3x~compact.png */; };
+		0F8217A7033D4B1169408CA2DEBFA592 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D17CB1CE0E78ACF219FD2FC9927222 /* Foundation.framework */; };
+		124BFC1BFBC8D3D74E1B7600ED5B34D9 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47597EBE85B50013C013F0F8E3986475 /* SVProgressHUD-dummy.m */; };
+		16AB9AD992C63386F98B2C94A226810C /* SSKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 957C83828FF5F27BD11385A578C61FB9 /* SSKeychain-dummy.m */; };
+		17540F26EAB8E10F752D4A7EEB22FD8B /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 71E99AA6B93760AE6871E69F0C6B0AE3 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1933F152FBF581C504E2C92E3E60F498 /* onepassword-toolbar-light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD1CF4FC0ADF7E980BCADC1B61750773 /* onepassword-toolbar-light@2x.png */; };
+		1CBDB47B210A0C2448C14A610BC6D4D6 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = D316D53FE320EB7485C841EB08186861 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E310D0CE3BE27EF253B6D822B0AEE5E /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 992CE7146CD2D3463968D486508CC1F3 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E5E12ED7D5E9F1D43EA164551039AA0 /* OAStackViewAlignmentStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C3439AB4348F2603D306071484B2DD /* OAStackViewAlignmentStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F5B0BB9FFA0310C8453D00F725A3116 /* OAStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E38B2EB192487D1FDC2E0DAD6CB5353 /* OAStackView-dummy.m */; };
+		211D4EA06F5920376A069ACB55DF6006 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1757F4B26647BA32D639673E1911CC36 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		235BF5DF6980CBE0CDB98ACD34C0929B /* OAStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EEF0249F268CFB5C9793E6BD06C03A /* OAStackView.m */; };
+		264C6BE8EE2D2DF01AD0F3E062CA1A0A /* onepassword-extension-light~compact.png in Resources */ = {isa = PBXBuildFile; fileRef = 72CDC376D4FF19A5A2F9B45D7E179721 /* onepassword-extension-light~compact.png */; };
+		26830EFA7503EB6E6681A7E149E95C3C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46695837FC54A49FA403EBD926A863A3 /* QuartzCore.framework */; };
+		2B8269A87473D9F1259E9BD98E7588D3 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE445567FED108045A0CE730AB7B071 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CF66E8669A348C421E93F2F67C6A61E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E858EB2A74B9E0877EF64908EE52D15E /* AFHTTPSessionManager.m */; };
+		2FF94865CDE6C167FCEC4C78AC132C73 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 99057ABC8151B8A133777475EA01CAC8 /* SVProgressHUD.m */; };
+		3033C63AC334D346E9461D0942D8FB69 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0EEFC2C50FBDE765322977D345D80F /* AFURLRequestSerialization.m */; };
+		3096AD0D548C02124BF5245674472D4C /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		3498A842025C522CA3D853F0D37844C0 /* onepassword-extension@2x~compact.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECC18D059FD346205B968F726A85AAF /* onepassword-extension@2x~compact.png */; };
+		399AC825EE10F70364CE7B0AA89F466D /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 386A3CC5DBE0E69A80C81452806B0365 /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A5B54373A45916EC8DE74D060DE5503 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7E01A04EBEE0C0A53D81E57F419634 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C33B158C02F82761A03A30ACE74846C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D58A4B1C81F4AF9C06E29625F38F1F /* Security.framework */; };
+		3E4D66A5B3750AFD54592C9D2CD02BCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D17CB1CE0E78ACF219FD2FC9927222 /* Foundation.framework */; };
+		431FAF607F61EAF29532A09367E99A32 /* OAStackView+Constraint.h in Headers */ = {isa = PBXBuildFile; fileRef = EB75EAB70BF9C92B6579A6AC18E93957 /* OAStackView+Constraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		439B483ACF7F7B8DF5495B88E7C4D100 /* OAStackView+Hiding.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BD301053DDA3A33117C407325F4DAB /* OAStackView+Hiding.m */; };
+		472A6BFCC6207D98F787649BDF44A1BE /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB24EC4CBC72D15BD0088C8F74D94BD /* AFHTTPRequestOperationManager.m */; };
+		495F717651B12E6496C72D16BCC28C29 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = D7600F705ACEE0A6D4981826381776A6 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51890E3267FBBB80AC93B039EFBE663A /* onepassword-toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C443268FC69510A08EC8FD29D844F65 /* onepassword-toolbar.png */; };
+		5405566DBB2325701FF55A881C00CB5C /* 1Password.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E2307CBDC9C490029F8DA113415342 /* 1Password.xcassets */; };
+		595CB1469E9A8F941D103823F132E1F7 /* onepassword-extension-light@2x~regular.png in Resources */ = {isa = PBXBuildFile; fileRef = B9ED2B046E870A9067E1CD18D09E06CC /* onepassword-extension-light@2x~regular.png */; };
+		5CF0E043147B69E77976A2CCADFF18CA /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 402427331A71425D325D3A1B335B1DAC /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E62FC45E5CD17BA3AF291C64B3446E3 /* onepassword-toolbar-light@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2186314F0A78F4F10776FEE4726C7E82 /* onepassword-toolbar-light@3x.png */; };
+		5FD88BE798FEF2EFD02BDF8593B8399D /* OnePasswordExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5DBDB58B3E4DAC5A614E708844DDF4 /* OnePasswordExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		615A40F52136A318443DFFDA0436F35B /* OAStackViewDistributionStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AD4F1EDA7D2C5594F9AF94FB4C1177 /* OAStackViewDistributionStrategy.m */; };
+		688243C40C3C419A2576BCCBA517E2E4 /* onepassword-toolbar-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 827D525B9EF17DC99A4E0C19DF34AC93 /* onepassword-toolbar-light.png */; };
+		688E1A49A7FF60F5FEA950EE3B64C8F1 /* onepassword-navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 80438C3400F7903CD0D0096DF3A93A22 /* onepassword-navbar.png */; };
+		68CE3794751504FDF3E134E2D5B9C99E /* onepassword-button-light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1F27D49F4E94CE2E7F1F596DEDAB80 /* onepassword-button-light@2x.png */; };
+		6994ED7CC4A7EFB82359DA80A8C2A17E /* onepassword-extension@2x~regular.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A2BA64CA2DF8F53F7D3A1ABDCC8E23 /* onepassword-extension@2x~regular.png */; };
+		6C070ADD5B4CA081558E8FE4F7646DA9 /* onepassword-navbar-light@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 999F1CFD6DE1785F2B3434FBB61FC9B0 /* onepassword-navbar-light@3x.png */; };
+		6CC4B79C1FEE1E7B3F2860ADA479D381 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 330D0289762DD4D7824FF84659AB6F33 /* AFURLSessionManager.m */; };
+		70348FFE4DCF47958F6618F2F22C241D /* onepassword-button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8938E12A47A989E20C75B9A2898D0CF6 /* onepassword-button@3x.png */; };
+		750E29EC3B94F7BB7C05E7FEA2A8C0B7 /* onepassword-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BFFFE194886982E4311CE1C9655485 /* onepassword-button.png */; };
+		78449FCC01114171AA3CCB45C6666206 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A05368136571BE89A06DBB67730EF65 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D222098FC8273CF30C84B305BE8FC8F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = A48A8D039590F119066139C2C3B94C4D /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D2E290830576BF77CA6843EFE9731B0 /* onepassword-extension-light~regular.png in Resources */ = {isa = PBXBuildFile; fileRef = 99EC1381A2AF91964FF3DD79C0A02912 /* onepassword-extension-light~regular.png */; };
+		854BC4449D8CAD0F2799B021D1914C3B /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C3020F3E6FFA9966E7DC62B765CD3E /* UIRefreshControl+AFNetworking.m */; };
+		876C2EF5FE318346CDCB4BFE25A9D5B2 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E2E005B360C8C23C3AFED81367BF6 /* AFHTTPRequestOperation.m */; };
+		8A4318B9635E84222A5D794DC83E6212 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3880D624D1E4F92C826F39D1C82158B /* UIKit.framework */; };
+		8A956BEF48A5FC89765F7E5AF2FF8C7A /* onepassword-navbar-light.png in Resources */ = {isa = PBXBuildFile; fileRef = FC56228E32E3F1BD35B2DADEF2B27D65 /* onepassword-navbar-light.png */; };
+		8CD068508E6255E984820A736F0326FC /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFE357A8C1161BFBBD09C66F465D2EE /* SVIndefiniteAnimatedView.m */; };
+		8D50E325013120F8B31C2A8A552E6415 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = FFABA85C79F3895CEAC401186D24BCFB /* SSKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		903A0E1F82A29D285902CBB5A0828BE9 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 08353BFFBC85F1777BF19155F4BB9405 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98C08109C4FB81797508B7116F136D99 /* onepassword-extension~compact.png in Resources */ = {isa = PBXBuildFile; fileRef = 35C452D2B65BFACB3E807F0CD37E0702 /* onepassword-extension~compact.png */; };
+		99D0354E76485DE5F18ED81DD9C10749 /* OAStackView+Traversal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBE80033F1C12DA5E1B02F0CB47D602 /* OAStackView+Traversal.m */; };
+		99E82D6DC032555656E37AF2367B20D3 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B73DDC531182E6BB97D3F41F38EEE4B2 /* UIButton+AFNetworking.m */; };
+		9A04E971065AF4281E43947994A53D07 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBF1E6CD811D9772C61CF41A015009 /* UIWebView+AFNetworking.m */; };
+		9B47A1441B897F71505D8BE670B0940B /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 216F1755BAB90B146D57981C657D3AB1 /* UIAlertView+AFNetworking.m */; };
+		9D70BE35E416BFEFF5E513705709149E /* OAStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = C52183DCEDE447A50802CF850513D9D9 /* OAStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D8B48E4562BD70182EF74DAC16638CA /* OAStackView+Traversal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA778EE58C69F74217E2809692259DA /* OAStackView+Traversal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A28588D1CCB5253CF80509F30A1AF1A5 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1C163DB2462A82F432B682BC81FCBB /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4EE8D1BEE38B87066BAA1B09A047356 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D35B691344BA630D49EA69DC3BACD2A /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A58235F6DE57589F67B396E4A94C66D8 /* onepassword-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D30BD0C5CC159512E1225920BF89B9 /* onepassword-button@2x.png */; };
+		A5AF1AC3A8A1A294B3ED4677E118FA6D /* OnePasswordExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD17550901431BFF3C8B8D8444E872E /* OnePasswordExtension.m */; };
+		AD8815902393F15AAC3BFC092B6D6705 /* OAStackViewDistributionStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = ED550437469E040CA980B1B5F6FA22C4 /* OAStackViewDistributionStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE607E682415FAA160B33C7C13A8475B /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947BA06B80554F6CC98BBFB0D007FC1 /* UIActivityIndicatorView+AFNetworking.m */; };
+		AE78EE13837D4B59955AF59BCCB5202F /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8978C1C48335409644F16A3F6283E7 /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B12AD2EE044D6F7424F75F1506B516B2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E7F4D5736A19087B5C8D1A9AEED7E7 /* AFSecurityPolicy.m */; };
+		B23E110919D571315F8CFFD23C119C91 /* onepassword-navbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79A7DB2A51DAC2EE28A4E1DD9F0AA441 /* onepassword-navbar@3x.png */; };
+		B2B5DEC33B644F946C59F656AAAA8146 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFE5B205A455632863531D80DD92C08 /* AFNetworkActivityIndicatorManager.m */; };
+		B9DAA002CF3E0E8EBE9B6E9A7778CFD4 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA11036FCD74572B9320A09461495D0 /* AFNetworking-dummy.m */; };
+		BA025A85A850C1E24A6C92F4C29E5531 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A85B9748991CC8E0D07259A71B2E67 /* SystemConfiguration.framework */; };
+		BC7993B7436D4D7FADE6DD554DA52769 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17B5CB43B77FF57CBF6A1ACE76CDB8 /* AFNetworkReachabilityManager.m */; };
+		BF2F14AABCD916DCEADE8DF079154F3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D17CB1CE0E78ACF219FD2FC9927222 /* Foundation.framework */; };
+		C2A6803A8F17AF7E952168A412E514FE /* OAStackViewAlignmentStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C7B0A223B0BE15EDAF107FD50EDB6 /* OAStackViewAlignmentStrategy.m */; };
+		C58268D5A4D2A786576E0EAA5B50FB93 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E188535623F885EF9FD9FCE0872248B7 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5B6FADEB003926AA389B72D18E85C61 /* onepassword-toolbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08373CF4011A1AF75B64B890E74CFF2E /* onepassword-toolbar@2x.png */; };
+		C7ACDDE36465ACAF629FEC233B1BF172 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B7EF08404FE0366FE1574510C31E99A3 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA4C74B65B48BBAA49F7E62DF0C2F6B8 /* onepassword-button-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D38164FCD7CDA351EE4D8E7EB841CB /* onepassword-button-light.png */; };
+		CAA0F8074B35A2F73890310EC4521A0D /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3241319E15C19429958AE5E3A7C0A5 /* AFURLResponseSerialization.m */; };
+		CD54483A1C92E87582B2252774E725D1 /* onepassword-extension-light@2x~compact.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B774183D56EC019BD58D65F0A63B34 /* onepassword-extension-light@2x~compact.png */; };
+		D070B784EFCA099C141EEAB69FBCC870 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A98B8777506A23A9ECB8D82A4D7E9 /* UIImageView+AFNetworking.m */; };
+		D4A65C2E29ACB340587FD41196176F8A /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5BD1F53F1215560E3B3C0C2BB39176 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D707B60D2285ECF13592A5F1E9B14890 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = EE943E93A6698529F8E6107DFFB7201E /* SSKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DB2E92A71137AD2E6993E8B0CE682C89 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C81DFE074A691C87A78D7407D2CD0FA /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB42C604EF2F39D542F805AC6A05E090 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551C0B4180F1504F4B64BE1060061610 /* MobileCoreServices.framework */; };
+		DB55744F7603E6438B59875769735D88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D17CB1CE0E78ACF219FD2FC9927222 /* Foundation.framework */; };
+		DD2CCE75A11968C5E1BFD5A1EC02E83C /* OAStackView+Hiding.h in Headers */ = {isa = PBXBuildFile; fileRef = 199E944BFBA810207BE22C1EFC6DA7C4 /* OAStackView+Hiding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DECD5915774351B8473476B041DD87D7 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E99A0355B9E305DC79234AA70C74A859 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E182B33A5DA8CA8062F8E82ADF5D30FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D17CB1CE0E78ACF219FD2FC9927222 /* Foundation.framework */; };
+		E547CB13B7F4100FCBD937C11A140D25 /* onepassword-extension-light@3x~compact.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB119714F8B2AF05966541AD932D1C /* onepassword-extension-light@3x~compact.png */; };
+		E6DD6ABB4FC13B60FA54C950FB6B262B /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C18715CB4466A49D06AEF33773BC46 /* AFURLConnectionOperation.m */; };
+		F08E19D8B440D85D564273B1A501B1FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128AD5011BFADA37167C5F6269BB28A6 /* CoreGraphics.framework */; };
+		F12914BB95DF9B50D59EA457BB86C31E /* onepassword-extension~regular.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFAB3BB3B95A887E9C090A5F9A2BC62 /* onepassword-extension~regular.png */; };
+		F2AF56F00E313B9CD0F4ADA3C5D73BDF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D58A4B1C81F4AF9C06E29625F38F1F /* Security.framework */; };
+		F30F2899985C3ABA3AAAB4EC36950EE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D17CB1CE0E78ACF219FD2FC9927222 /* Foundation.framework */; };
+		F370B0CD96FA6A1682B96B7E1FDA2E14 /* onepassword-toolbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E9A56FE801AEE54D7589C1DB9FBBA67 /* onepassword-toolbar@3x.png */; };
+		F39B07088EE7BAEC63DCCA2F3B19FBE6 /* OAStackView+Constraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C639BE4058BC49F763F7FF6404863 /* OAStackView+Constraint.m */; };
+		F4A1512E8C4D8C8194CBB276BF72A552 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DABEC86E59AE32B2F495E75B6FAC95FE /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4B03681047157E5C357E584147F5A46 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF9FD32326257CD3F6D627974DEF9B6 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4DCBA2A42A38C6E7A755182DA50DEA2 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F2039F87D88BAE13375EEA047BE5E55 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4FF00476E78B4B5B39487F0FF31A598 /* 1PasswordExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D941DB8D87B589E3434A2520A8FD790E /* 1PasswordExtension-dummy.m */; };
+		F703FAE2237A2E3F93D940F1D5DD2F6E /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = BA40B4737C5BDCA5D9FC533F081B75FC /* SSKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD6F966F458CEE40B07A2367BA3BC8EC /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B85129241A74FDA68AB355E8432B5573 /* UIProgressView+AFNetworking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C2B18A5D9BD489B891BDE306D2A4A6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3BB5634F1F8A227029317A452193F22;
+			remoteInfo = OAStackView;
+		};
+		104A813896F377FE250A5E84E9FE1C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3107B58CF796C2C600ACA69E242271A2;
+			remoteInfo = SSKeychain;
+		};
+		367455CB249A1B88547A04CF40A55E8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0533F8D95507E84B21A463B4ACDF9563;
+			remoteInfo = "1PasswordExtension-OnePasswordExtensionResources";
+		};
+		5CEC52C79E3E67B8DE91C7D5DAB9CAB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5679E7BBB5EF83DADED5C302C2854550;
+			remoteInfo = 1PasswordExtension;
+		};
+		78045A878DF0A6B253C88E090F57C743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B613695009E64CC7C722E57C1EDF5A8;
+			remoteInfo = SVProgressHUD;
+		};
+		B31D183F7F889567C92728B8BD1B1A8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410B25DF16EA5C5B3E2698F74F9625FB;
+			remoteInfo = AFNetworking;
+		};
+		D18044C5517E78904565D1FF79153898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5049468ACF8498718A278E27514477AA;
+			remoteInfo = "OAStackView-OAStackView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D58A4B1C81F4AF9C06E29625F38F1F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		03EFB77123FE3F3FF3E64E88AFB82A34 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		0484A75744A0B5C446B474CE39977054 /* 1PasswordExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = 1PasswordExtension.xcconfig; sourceTree = "<group>"; };
+		08353BFFBC85F1777BF19155F4BB9405 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		08373CF4011A1AF75B64B890E74CFF2E /* onepassword-toolbar@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-toolbar@2x.png"; path = "1Password.xcassets/onepassword-toolbar.imageset/onepassword-toolbar@2x.png"; sourceTree = "<group>"; };
+		0D735BBCEB23623FAC7BF0A3B600B16C /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		0FFAB3BB3B95A887E9C090A5F9A2BC62 /* onepassword-extension~regular.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension~regular.png"; path = "1Password.xcassets/onepassword-extension.imageset/onepassword-extension~regular.png"; sourceTree = "<group>"; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		128AD5011BFADA37167C5F6269BB28A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		13D38164FCD7CDA351EE4D8E7EB841CB /* onepassword-button-light.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-button-light.png"; path = "1Password.xcassets/onepassword-button-light.imageset/onepassword-button-light.png"; sourceTree = "<group>"; };
+		1757F4B26647BA32D639673E1911CC36 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		199E944BFBA810207BE22C1EFC6DA7C4 /* OAStackView+Hiding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OAStackView+Hiding.h"; path = "Pod/Classes/OAStackView+Hiding.h"; sourceTree = "<group>"; };
+		1C6A98B8777506A23A9ECB8D82A4D7E9 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		1DBE80033F1C12DA5E1B02F0CB47D602 /* OAStackView+Traversal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OAStackView+Traversal.m"; path = "Pod/Classes/OAStackView+Traversal.m"; sourceTree = "<group>"; };
+		1DF9FD32326257CD3F6D627974DEF9B6 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		1FA778EE58C69F74217E2809692259DA /* OAStackView+Traversal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OAStackView+Traversal.h"; path = "Pod/Classes/OAStackView+Traversal.h"; sourceTree = "<group>"; };
+		216F1755BAB90B146D57981C657D3AB1 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		2186314F0A78F4F10776FEE4726C7E82 /* onepassword-toolbar-light@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-toolbar-light@3x.png"; path = "1Password.xcassets/onepassword-toolbar-light.imageset/onepassword-toolbar-light@3x.png"; sourceTree = "<group>"; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		29EEF0249F268CFB5C9793E6BD06C03A /* OAStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAStackView.m; path = Pod/Classes/OAStackView.m; sourceTree = "<group>"; };
+		2BA11036FCD74572B9320A09461495D0 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		2D35B691344BA630D49EA69DC3BACD2A /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		2F1F27D49F4E94CE2E7F1F596DEDAB80 /* onepassword-button-light@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-button-light@2x.png"; path = "1Password.xcassets/onepassword-button-light.imageset/onepassword-button-light@2x.png"; sourceTree = "<group>"; };
+		2FAB119714F8B2AF05966541AD932D1C /* onepassword-extension-light@3x~compact.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension-light@3x~compact.png"; path = "1Password.xcassets/onepassword-extension-light.imageset/onepassword-extension-light@3x~compact.png"; sourceTree = "<group>"; };
+		330D0289762DD4D7824FF84659AB6F33 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		35C452D2B65BFACB3E807F0CD37E0702 /* onepassword-extension~compact.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension~compact.png"; path = "1Password.xcassets/onepassword-extension.imageset/onepassword-extension~compact.png"; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		386A3CC5DBE0E69A80C81452806B0365 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		3B56648809FA083587D3F23BAF7B9112 /* 1PasswordExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "1PasswordExtension-prefix.pch"; sourceTree = "<group>"; };
+		402427331A71425D325D3A1B335B1DAC /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		46695837FC54A49FA403EBD926A863A3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		47597EBE85B50013C013F0F8E3986475 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		4947BA06B80554F6CC98BBFB0D007FC1 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		49C3439AB4348F2603D306071484B2DD /* OAStackViewAlignmentStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAStackViewAlignmentStrategy.h; path = Pod/Classes/OAStackViewAlignmentStrategy.h; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		53AD4F1EDA7D2C5594F9AF94FB4C1177 /* OAStackViewDistributionStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAStackViewDistributionStrategy.m; path = Pod/Classes/OAStackViewDistributionStrategy.m; sourceTree = "<group>"; };
+		53D77F741D8EDFD7A7F6E2477648BC3A /* lib1PasswordExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = lib1PasswordExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		551C0B4180F1504F4B64BE1060061610 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		57BFFFE194886982E4311CE1C9655485 /* onepassword-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-button.png"; path = "1Password.xcassets/onepassword-button.imageset/onepassword-button.png"; sourceTree = "<group>"; };
+		58E7F4D5736A19087B5C8D1A9AEED7E7 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		5E3241319E15C19429958AE5E3A7C0A5 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		5E38B2EB192487D1FDC2E0DAD6CB5353 /* OAStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OAStackView-dummy.m"; sourceTree = "<group>"; };
+		5E9A56FE801AEE54D7589C1DB9FBBA67 /* onepassword-toolbar@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-toolbar@3x.png"; path = "1Password.xcassets/onepassword-toolbar.imageset/onepassword-toolbar@3x.png"; sourceTree = "<group>"; };
+		62BE1DC036B3CD5D7120B0D76BC63456 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		62D17CB1CE0E78ACF219FD2FC9927222 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		64C18715CB4466A49D06AEF33773BC46 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		6864D9F3EBF4DB24F2ACDAE292495406 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		686F4945E28409294C629C41D12A185C /* OAStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OAStackView.xcconfig; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		6ECC18D059FD346205B968F726A85AAF /* onepassword-extension@2x~compact.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension@2x~compact.png"; path = "1Password.xcassets/onepassword-extension.imageset/onepassword-extension@2x~compact.png"; sourceTree = "<group>"; };
+		6F2A370F5AF0AA47711CD1C7D46BC5D3 /* OAStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAStackView-prefix.pch"; sourceTree = "<group>"; };
+		6F5BD1F53F1215560E3B3C0C2BB39176 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		71E99AA6B93760AE6871E69F0C6B0AE3 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		72CDC376D4FF19A5A2F9B45D7E179721 /* onepassword-extension-light~compact.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension-light~compact.png"; path = "1Password.xcassets/onepassword-extension-light.imageset/onepassword-extension-light~compact.png"; sourceTree = "<group>"; };
+		79A7DB2A51DAC2EE28A4E1DD9F0AA441 /* onepassword-navbar@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-navbar@3x.png"; path = "1Password.xcassets/onepassword-navbar.imageset/onepassword-navbar@3x.png"; sourceTree = "<group>"; };
+		7A4A8D5C75B444C04CF2498DC78BE2DB /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		7BD17550901431BFF3C8B8D8444E872E /* OnePasswordExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OnePasswordExtension.m; sourceTree = "<group>"; };
+		7C0EEFC2C50FBDE765322977D345D80F /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		7C443268FC69510A08EC8FD29D844F65 /* onepassword-toolbar.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-toolbar.png"; path = "1Password.xcassets/onepassword-toolbar.imageset/onepassword-toolbar.png"; sourceTree = "<group>"; };
+		7F2039F87D88BAE13375EEA047BE5E55 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		80438C3400F7903CD0D0096DF3A93A22 /* onepassword-navbar.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-navbar.png"; path = "1Password.xcassets/onepassword-navbar.imageset/onepassword-navbar.png"; sourceTree = "<group>"; };
+		827D525B9EF17DC99A4E0C19DF34AC93 /* onepassword-toolbar-light.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-toolbar-light.png"; path = "1Password.xcassets/onepassword-toolbar-light.imageset/onepassword-toolbar-light.png"; sourceTree = "<group>"; };
+		8938E12A47A989E20C75B9A2898D0CF6 /* onepassword-button@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-button@3x.png"; path = "1Password.xcassets/onepassword-button.imageset/onepassword-button@3x.png"; sourceTree = "<group>"; };
+		89A85B9748991CC8E0D07259A71B2E67 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		8CC47FB16B114DD98A3BE7806A97369A /* onepassword-navbar-light@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-navbar-light@2x.png"; path = "1Password.xcassets/onepassword-navbar-light.imageset/onepassword-navbar-light@2x.png"; sourceTree = "<group>"; };
+		8E1E2E005B360C8C23C3AFED81367BF6 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		8E8978C1C48335409644F16A3F6283E7 /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = SSKeychain/SSKeychain.h; sourceTree = "<group>"; };
+		8FB24EC4CBC72D15BD0088C8F74D94BD /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		91C3020F3E6FFA9966E7DC62B765CD3E /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		957C83828FF5F27BD11385A578C61FB9 /* SSKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSKeychain-dummy.m"; sourceTree = "<group>"; };
+		96D30BD0C5CC159512E1225920BF89B9 /* onepassword-button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-button@2x.png"; path = "1Password.xcassets/onepassword-button.imageset/onepassword-button@2x.png"; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		99057ABC8151B8A133777475EA01CAC8 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		992CE7146CD2D3463968D486508CC1F3 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		999F1CFD6DE1785F2B3434FBB61FC9B0 /* onepassword-navbar-light@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-navbar-light@3x.png"; path = "1Password.xcassets/onepassword-navbar-light.imageset/onepassword-navbar-light@3x.png"; sourceTree = "<group>"; };
+		99EC1381A2AF91964FF3DD79C0A02912 /* onepassword-extension-light~regular.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension-light~regular.png"; path = "1Password.xcassets/onepassword-extension-light.imageset/onepassword-extension-light~regular.png"; sourceTree = "<group>"; };
+		9A05368136571BE89A06DBB67730EF65 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		9B5DBDB58B3E4DAC5A614E708844DDF4 /* OnePasswordExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OnePasswordExtension.h; sourceTree = "<group>"; };
+		9BCBF1E6CD811D9772C61CF41A015009 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		9C81DFE074A691C87A78D7407D2CD0FA /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		9DDAE2B64F94B1F3DC8830E5776BB6DA /* onepassword-extension@3x~compact.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension@3x~compact.png"; path = "1Password.xcassets/onepassword-extension.imageset/onepassword-extension@3x~compact.png"; sourceTree = "<group>"; };
+		9E9C7B0A223B0BE15EDAF107FD50EDB6 /* OAStackViewAlignmentStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAStackViewAlignmentStrategy.m; path = Pod/Classes/OAStackViewAlignmentStrategy.m; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		A48A8D039590F119066139C2C3B94C4D /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		A4E2307CBDC9C490029F8DA113415342 /* 1Password.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = 1Password.xcassets; sourceTree = "<group>"; };
+		AA1C163DB2462A82F432B682BC81FCBB /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		AD147DDFF9F48C41FB1270201F8B751B /* SSKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSKeychain.xcconfig; sourceTree = "<group>"; };
+		ADB7E2A805EC8B150B069C443B0B16EA /* onepassword-button-light@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-button-light@3x.png"; path = "1Password.xcassets/onepassword-button-light.imageset/onepassword-button-light@3x.png"; sourceTree = "<group>"; };
+		AF0A98144538ED1F4DB27BA6D78A1B1D /* libSSKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFEB2498DFED50BAA9E77BB7E3AF316C /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		B73DDC531182E6BB97D3F41F38EEE4B2 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		B7EF08404FE0366FE1574510C31E99A3 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		B85129241A74FDA68AB355E8432B5573 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		B86333A7E3EDEB582B37E12D858E1B57 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9ED2B046E870A9067E1CD18D09E06CC /* onepassword-extension-light@2x~regular.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension-light@2x~regular.png"; path = "1Password.xcassets/onepassword-extension-light.imageset/onepassword-extension-light@2x~regular.png"; sourceTree = "<group>"; };
+		BA40B4737C5BDCA5D9FC533F081B75FC /* SSKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychainQuery.h; path = SSKeychain/SSKeychainQuery.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD1CF4FC0ADF7E980BCADC1B61750773 /* onepassword-toolbar-light@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-toolbar-light@2x.png"; path = "1Password.xcassets/onepassword-toolbar-light.imageset/onepassword-toolbar-light@2x.png"; sourceTree = "<group>"; };
+		C332861AA4F29F74A2C509BDA3237C11 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A46F77853A5C17A7657AA934114666 /* onepassword-navbar@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-navbar@2x.png"; path = "1Password.xcassets/onepassword-navbar.imageset/onepassword-navbar@2x.png"; sourceTree = "<group>"; };
+		C52183DCEDE447A50802CF850513D9D9 /* OAStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAStackView.h; path = Pod/Classes/OAStackView.h; sourceTree = "<group>"; };
+		CC17B5CB43B77FF57CBF6A1ACE76CDB8 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CC3C639BE4058BC49F763F7FF6404863 /* OAStackView+Constraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OAStackView+Constraint.m"; path = "Pod/Classes/OAStackView+Constraint.m"; sourceTree = "<group>"; };
+		D316D53FE320EB7485C841EB08186861 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		D3880D624D1E4F92C826F39D1C82158B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D7600F705ACEE0A6D4981826381776A6 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		D941DB8D87B589E3434A2520A8FD790E /* 1PasswordExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "1PasswordExtension-dummy.m"; sourceTree = "<group>"; };
+		DA2B2FE0610CEEFF337F413E0DC96AE3 /* OnePasswordExtensionResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePasswordExtensionResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABEC86E59AE32B2F495E75B6FAC95FE /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		DE4DEB6F73DA2975FF37F1B6E5EBC88F /* OAStackView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAStackView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE445567FED108045A0CE730AB7B071 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		E188535623F885EF9FD9FCE0872248B7 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		E6BD301053DDA3A33117C407325F4DAB /* OAStackView+Hiding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OAStackView+Hiding.m"; path = "Pod/Classes/OAStackView+Hiding.m"; sourceTree = "<group>"; };
+		E858EB2A74B9E0877EF64908EE52D15E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		E99A0355B9E305DC79234AA70C74A859 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		E9A2BA64CA2DF8F53F7D3A1ABDCC8E23 /* onepassword-extension@2x~regular.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension@2x~regular.png"; path = "1Password.xcassets/onepassword-extension.imageset/onepassword-extension@2x~regular.png"; sourceTree = "<group>"; };
+		EB75EAB70BF9C92B6579A6AC18E93957 /* OAStackView+Constraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OAStackView+Constraint.h"; path = "Pod/Classes/OAStackView+Constraint.h"; sourceTree = "<group>"; };
+		ED550437469E040CA980B1B5F6FA22C4 /* OAStackViewDistributionStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAStackViewDistributionStrategy.h; path = Pod/Classes/OAStackViewDistributionStrategy.h; sourceTree = "<group>"; };
+		EE943E93A6698529F8E6107DFFB7201E /* SSKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = SSKeychain/SSKeychain.m; sourceTree = "<group>"; };
+		F8B774183D56EC019BD58D65F0A63B34 /* onepassword-extension-light@2x~compact.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension-light@2x~compact.png"; path = "1Password.xcassets/onepassword-extension-light.imageset/onepassword-extension-light@2x~compact.png"; sourceTree = "<group>"; };
+		FA96016A0937CB0128AED898A1CA0E87 /* libOAStackView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOAStackView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFE5B205A455632863531D80DD92C08 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		FC56228E32E3F1BD35B2DADEF2B27D65 /* onepassword-navbar-light.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-navbar-light.png"; path = "1Password.xcassets/onepassword-navbar-light.imageset/onepassword-navbar-light.png"; sourceTree = "<group>"; };
+		FC7E01A04EBEE0C0A53D81E57F419634 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		FF104991A8BE602F46A1C2C1376B64E4 /* SSKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSKeychain-prefix.pch"; sourceTree = "<group>"; };
+		FFABA85C79F3895CEAC401186D24BCFB /* SSKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychainQuery.m; path = SSKeychain/SSKeychainQuery.m; sourceTree = "<group>"; };
+		FFFE357A8C1161BFBBD09C66F465D2EE /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13DA1EABA5197E080B324E0372FCBF2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2F14AABCD916DCEADE8DF079154F3D /* Foundation.framework in Frameworks */,
+				26830EFA7503EB6E6681A7E149E95C3C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4ECB4E7D61D2A1ABF6514D41607412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB55744F7603E6438B59875769735D88 /* Foundation.framework in Frameworks */,
+				3C33B158C02F82761A03A30ACE74846C /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2339EAC7DD1D5242393E04609F742D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4D66A5B3750AFD54592C9D2CD02BCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558223280AF0D87452A8EBDE0D6A4983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D2319D8A58F38C0B310E66E1FFEBF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E182B33A5DA8CA8062F8E82ADF5D30FC /* Foundation.framework in Frameworks */,
+				8A4318B9635E84222A5D794DC83E6212 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48AA891C61C4C422E18EE70C9B32FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F428C0A5C7AEF469CC7F9B7E6EC0003A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08E19D8B440D85D564273B1A501B1FC /* CoreGraphics.framework in Frameworks */,
+				0F8217A7033D4B1169408CA2DEBFA592 /* Foundation.framework in Frameworks */,
+				DB42C604EF2F39D542F805AC6A05E090 /* MobileCoreServices.framework in Frameworks */,
+				F2AF56F00E313B9CD0F4ADA3C5D73BDF /* Security.framework in Frameworks */,
+				BA025A85A850C1E24A6C92F4C29E5531 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85F91651F26F647EAC8B2EBCB7BA3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30F2899985C3ABA3AAAB4EC36950EE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		09F8692E81520FEECBB4038E13DE13B5 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				D316D53FE320EB7485C841EB08186861 /* AFSecurityPolicy.h */,
+				58E7F4D5736A19087B5C8D1A9AEED7E7 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		0BD596FDFAC6B4B86712DA588039CBAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				164CD9AC3A8C9AD28C9C1A05D5C9F9D1 /* 1PasswordExtension */,
+				EFFED564B206935D3A4D0BE96CF4D389 /* AFNetworking */,
+				444797F1C6E2D573713819DD92A0DA9E /* OAStackView */,
+				8BC91AFC90BFA516EEA82A987A1984D2 /* SSKeychain */,
+				D496BD5715258CA065D827E655D199BC /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		164CD9AC3A8C9AD28C9C1A05D5C9F9D1 /* 1PasswordExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9B5DBDB58B3E4DAC5A614E708844DDF4 /* OnePasswordExtension.h */,
+				7BD17550901431BFF3C8B8D8444E872E /* OnePasswordExtension.m */,
+				DF24CB54DAF7C70E440E066A8F38FE96 /* Resources */,
+				9A3BE6E57ECE4FD73F7F7212444AB472 /* Support Files */,
+			);
+			path = 1PasswordExtension;
+			sourceTree = "<group>";
+		};
+		21B80B124C6FEFEDFB8A659477893FA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				686F4945E28409294C629C41D12A185C /* OAStackView.xcconfig */,
+				5E38B2EB192487D1FDC2E0DAD6CB5353 /* OAStackView-dummy.m */,
+				6F2A370F5AF0AA47711CD1C7D46BC5D3 /* OAStackView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OAStackView";
+			sourceTree = "<group>";
+		};
+		25CE4E3372E535EC242E1DCF9A3A0B29 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				1757F4B26647BA32D639673E1911CC36 /* AFHTTPRequestOperation.h */,
+				8E1E2E005B360C8C23C3AFED81367BF6 /* AFHTTPRequestOperation.m */,
+				DABEC86E59AE32B2F495E75B6FAC95FE /* AFHTTPRequestOperationManager.h */,
+				8FB24EC4CBC72D15BD0088C8F74D94BD /* AFHTTPRequestOperationManager.m */,
+				9C81DFE074A691C87A78D7407D2CD0FA /* AFURLConnectionOperation.h */,
+				64C18715CB4466A49D06AEF33773BC46 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		2EF8304E1F88D922C02B64960FEC9AEB /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7F2039F87D88BAE13375EEA047BE5E55 /* AFNetworkActivityIndicatorManager.h */,
+				FAFE5B205A455632863531D80DD92C08 /* AFNetworkActivityIndicatorManager.m */,
+				AA1C163DB2462A82F432B682BC81FCBB /* UIActivityIndicatorView+AFNetworking.h */,
+				4947BA06B80554F6CC98BBFB0D007FC1 /* UIActivityIndicatorView+AFNetworking.m */,
+				386A3CC5DBE0E69A80C81452806B0365 /* UIAlertView+AFNetworking.h */,
+				216F1755BAB90B146D57981C657D3AB1 /* UIAlertView+AFNetworking.m */,
+				FC7E01A04EBEE0C0A53D81E57F419634 /* UIButton+AFNetworking.h */,
+				B73DDC531182E6BB97D3F41F38EEE4B2 /* UIButton+AFNetworking.m */,
+				08353BFFBC85F1777BF19155F4BB9405 /* UIImage+AFNetworking.h */,
+				6F5BD1F53F1215560E3B3C0C2BB39176 /* UIImageView+AFNetworking.h */,
+				1C6A98B8777506A23A9ECB8D82A4D7E9 /* UIImageView+AFNetworking.m */,
+				1DF9FD32326257CD3F6D627974DEF9B6 /* UIKit+AFNetworking.h */,
+				B7EF08404FE0366FE1574510C31E99A3 /* UIProgressView+AFNetworking.h */,
+				B85129241A74FDA68AB355E8432B5573 /* UIProgressView+AFNetworking.m */,
+				E188535623F885EF9FD9FCE0872248B7 /* UIRefreshControl+AFNetworking.h */,
+				91C3020F3E6FFA9966E7DC62B765CD3E /* UIRefreshControl+AFNetworking.m */,
+				2D35B691344BA630D49EA69DC3BACD2A /* UIWebView+AFNetworking.h */,
+				9BCBF1E6CD811D9772C61CF41A015009 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		336D910CCEE0EF72765AF5FF0F2FF036 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				128AD5011BFADA37167C5F6269BB28A6 /* CoreGraphics.framework */,
+				62D17CB1CE0E78ACF219FD2FC9927222 /* Foundation.framework */,
+				551C0B4180F1504F4B64BE1060061610 /* MobileCoreServices.framework */,
+				46695837FC54A49FA403EBD926A863A3 /* QuartzCore.framework */,
+				00D58A4B1C81F4AF9C06E29625F38F1F /* Security.framework */,
+				89A85B9748991CC8E0D07259A71B2E67 /* SystemConfiguration.framework */,
+				D3880D624D1E4F92C826F39D1C82158B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		444797F1C6E2D573713819DD92A0DA9E /* OAStackView */ = {
+			isa = PBXGroup;
+			children = (
+				C52183DCEDE447A50802CF850513D9D9 /* OAStackView.h */,
+				29EEF0249F268CFB5C9793E6BD06C03A /* OAStackView.m */,
+				EB75EAB70BF9C92B6579A6AC18E93957 /* OAStackView+Constraint.h */,
+				CC3C639BE4058BC49F763F7FF6404863 /* OAStackView+Constraint.m */,
+				199E944BFBA810207BE22C1EFC6DA7C4 /* OAStackView+Hiding.h */,
+				E6BD301053DDA3A33117C407325F4DAB /* OAStackView+Hiding.m */,
+				1FA778EE58C69F74217E2809692259DA /* OAStackView+Traversal.h */,
+				1DBE80033F1C12DA5E1B02F0CB47D602 /* OAStackView+Traversal.m */,
+				49C3439AB4348F2603D306071484B2DD /* OAStackViewAlignmentStrategy.h */,
+				9E9C7B0A223B0BE15EDAF107FD50EDB6 /* OAStackViewAlignmentStrategy.m */,
+				ED550437469E040CA980B1B5F6FA22C4 /* OAStackViewDistributionStrategy.h */,
+				53AD4F1EDA7D2C5594F9AF94FB4C1177 /* OAStackViewDistributionStrategy.m */,
+				21B80B124C6FEFEDFB8A659477893FA8 /* Support Files */,
+			);
+			path = OAStackView;
+			sourceTree = "<group>";
+		};
+		46E1F25E2AA1E3B5F5C5F8D21A533B87 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D735BBCEB23623FAC7BF0A3B600B16C /* AFNetworking.xcconfig */,
+				2BA11036FCD74572B9320A09461495D0 /* AFNetworking-dummy.m */,
+				62BE1DC036B3CD5D7120B0D76BC63456 /* AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		64566FA6BD7E511F75BA9B1D2434DDDD /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				D7600F705ACEE0A6D4981826381776A6 /* AFURLRequestSerialization.h */,
+				7C0EEFC2C50FBDE765322977D345D80F /* AFURLRequestSerialization.m */,
+				992CE7146CD2D3463968D486508CC1F3 /* AFURLResponseSerialization.h */,
+				5E3241319E15C19429958AE5E3A7C0A5 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */,
+				0BD596FDFAC6B4B86712DA588039CBAF /* Pods */,
+				B43C474D6FBD4D436CE218B31CD193EB /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BC91AFC90BFA516EEA82A987A1984D2 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				8E8978C1C48335409644F16A3F6283E7 /* SSKeychain.h */,
+				EE943E93A6698529F8E6107DFFB7201E /* SSKeychain.m */,
+				BA40B4737C5BDCA5D9FC533F081B75FC /* SSKeychainQuery.h */,
+				FFABA85C79F3895CEAC401186D24BCFB /* SSKeychainQuery.m */,
+				B4B5E2C91AE294B40DD30844A34A4AD9 /* Support Files */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		998D08E12FC398AE2216BF04DD06BC15 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				E99A0355B9E305DC79234AA70C74A859 /* AFHTTPSessionManager.h */,
+				E858EB2A74B9E0877EF64908EE52D15E /* AFHTTPSessionManager.m */,
+				402427331A71425D325D3A1B335B1DAC /* AFURLSessionManager.h */,
+				330D0289762DD4D7824FF84659AB6F33 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		9A3BE6E57ECE4FD73F7F7212444AB472 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0484A75744A0B5C446B474CE39977054 /* 1PasswordExtension.xcconfig */,
+				D941DB8D87B589E3434A2520A8FD790E /* 1PasswordExtension-dummy.m */,
+				3B56648809FA083587D3F23BAF7B9112 /* 1PasswordExtension-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/1PasswordExtension";
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		B43C474D6FBD4D436CE218B31CD193EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53D77F741D8EDFD7A7F6E2477648BC3A /* lib1PasswordExtension.a */,
+				6864D9F3EBF4DB24F2ACDAE292495406 /* libAFNetworking.a */,
+				FA96016A0937CB0128AED898A1CA0E87 /* libOAStackView.a */,
+				C332861AA4F29F74A2C509BDA3237C11 /* libPods.a */,
+				AF0A98144538ED1F4DB27BA6D78A1B1D /* libSSKeychain.a */,
+				B86333A7E3EDEB582B37E12D858E1B57 /* libSVProgressHUD.a */,
+				DE4DEB6F73DA2975FF37F1B6E5EBC88F /* OAStackView.bundle */,
+				DA2B2FE0610CEEFF337F413E0DC96AE3 /* OnePasswordExtensionResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4B5E2C91AE294B40DD30844A34A4AD9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD147DDFF9F48C41FB1270201F8B751B /* SSKeychain.xcconfig */,
+				957C83828FF5F27BD11385A578C61FB9 /* SSKeychain-dummy.m */,
+				FF104991A8BE602F46A1C2C1376B64E4 /* SSKeychain-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSKeychain";
+			sourceTree = "<group>";
+		};
+		BD377F7CE4C5FB3DA0D0D08B837C2545 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				9A05368136571BE89A06DBB67730EF65 /* AFNetworkReachabilityManager.h */,
+				CC17B5CB43B77FF57CBF6A1ACE76CDB8 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		D496BD5715258CA065D827E655D199BC /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				71E99AA6B93760AE6871E69F0C6B0AE3 /* SVIndefiniteAnimatedView.h */,
+				FFFE357A8C1161BFBBD09C66F465D2EE /* SVIndefiniteAnimatedView.m */,
+				A48A8D039590F119066139C2C3B94C4D /* SVProgressHUD.h */,
+				99057ABC8151B8A133777475EA01CAC8 /* SVProgressHUD.m */,
+				FCDC4AD304642114B819E31B3C57A710 /* Resources */,
+				E76E8D6094B06F2A67F6FDCEF4788FFC /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		DF24CB54DAF7C70E440E066A8F38FE96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4E2307CBDC9C490029F8DA113415342 /* 1Password.xcassets */,
+				57BFFFE194886982E4311CE1C9655485 /* onepassword-button.png */,
+				13D38164FCD7CDA351EE4D8E7EB841CB /* onepassword-button-light.png */,
+				2F1F27D49F4E94CE2E7F1F596DEDAB80 /* onepassword-button-light@2x.png */,
+				ADB7E2A805EC8B150B069C443B0B16EA /* onepassword-button-light@3x.png */,
+				96D30BD0C5CC159512E1225920BF89B9 /* onepassword-button@2x.png */,
+				8938E12A47A989E20C75B9A2898D0CF6 /* onepassword-button@3x.png */,
+				F8B774183D56EC019BD58D65F0A63B34 /* onepassword-extension-light@2x~compact.png */,
+				B9ED2B046E870A9067E1CD18D09E06CC /* onepassword-extension-light@2x~regular.png */,
+				2FAB119714F8B2AF05966541AD932D1C /* onepassword-extension-light@3x~compact.png */,
+				72CDC376D4FF19A5A2F9B45D7E179721 /* onepassword-extension-light~compact.png */,
+				99EC1381A2AF91964FF3DD79C0A02912 /* onepassword-extension-light~regular.png */,
+				6ECC18D059FD346205B968F726A85AAF /* onepassword-extension@2x~compact.png */,
+				E9A2BA64CA2DF8F53F7D3A1ABDCC8E23 /* onepassword-extension@2x~regular.png */,
+				9DDAE2B64F94B1F3DC8830E5776BB6DA /* onepassword-extension@3x~compact.png */,
+				35C452D2B65BFACB3E807F0CD37E0702 /* onepassword-extension~compact.png */,
+				0FFAB3BB3B95A887E9C090A5F9A2BC62 /* onepassword-extension~regular.png */,
+				80438C3400F7903CD0D0096DF3A93A22 /* onepassword-navbar.png */,
+				FC56228E32E3F1BD35B2DADEF2B27D65 /* onepassword-navbar-light.png */,
+				8CC47FB16B114DD98A3BE7806A97369A /* onepassword-navbar-light@2x.png */,
+				999F1CFD6DE1785F2B3434FBB61FC9B0 /* onepassword-navbar-light@3x.png */,
+				C4A46F77853A5C17A7657AA934114666 /* onepassword-navbar@2x.png */,
+				79A7DB2A51DAC2EE28A4E1DD9F0AA441 /* onepassword-navbar@3x.png */,
+				7C443268FC69510A08EC8FD29D844F65 /* onepassword-toolbar.png */,
+				827D525B9EF17DC99A4E0C19DF34AC93 /* onepassword-toolbar-light.png */,
+				BD1CF4FC0ADF7E980BCADC1B61750773 /* onepassword-toolbar-light@2x.png */,
+				2186314F0A78F4F10776FEE4726C7E82 /* onepassword-toolbar-light@3x.png */,
+				08373CF4011A1AF75B64B890E74CFF2E /* onepassword-toolbar@2x.png */,
+				5E9A56FE801AEE54D7589C1DB9FBBA67 /* onepassword-toolbar@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E76E8D6094B06F2A67F6FDCEF4788FFC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03EFB77123FE3F3FF3E64E88AFB82A34 /* SVProgressHUD.xcconfig */,
+				47597EBE85B50013C013F0F8E3986475 /* SVProgressHUD-dummy.m */,
+				AFEB2498DFED50BAA9E77BB7E3AF316C /* SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		EFFED564B206935D3A4D0BE96CF4D389 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				DEE445567FED108045A0CE730AB7B071 /* AFNetworking.h */,
+				25CE4E3372E535EC242E1DCF9A3A0B29 /* NSURLConnection */,
+				998D08E12FC398AE2216BF04DD06BC15 /* NSURLSession */,
+				BD377F7CE4C5FB3DA0D0D08B837C2545 /* Reachability */,
+				09F8692E81520FEECBB4038E13DE13B5 /* Security */,
+				64566FA6BD7E511F75BA9B1D2434DDDD /* Serialization */,
+				46E1F25E2AA1E3B5F5C5F8D21A533B87 /* Support Files */,
+				2EF8304E1F88D922C02B64960FEC9AEB /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				336D910CCEE0EF72765AF5FF0F2FF036 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCDC4AD304642114B819E31B3C57A710 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A4A8D5C75B444C04CF2498DC78BE2DB /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01D1B713459786CB732E13C63448BF1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17540F26EAB8E10F752D4A7EEB22FD8B /* SVIndefiniteAnimatedView.h in Headers */,
+				7D222098FC8273CF30C84B305BE8FC8F /* SVProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879116EC11AD8840BEC40DC1FA6F5E4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE78EE13837D4B59955AF59BCCB5202F /* SSKeychain.h in Headers */,
+				F703FAE2237A2E3F93D940F1D5DD2F6E /* SSKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B628B3055C40663B7C10FF2600A8C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD88BE798FEF2EFD02BDF8593B8399D /* OnePasswordExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9739945171AC68B8FD6D38CF3DF9DFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431FAF607F61EAF29532A09367E99A32 /* OAStackView+Constraint.h in Headers */,
+				DD2CCE75A11968C5E1BFD5A1EC02E83C /* OAStackView+Hiding.h in Headers */,
+				9D8B48E4562BD70182EF74DAC16638CA /* OAStackView+Traversal.h in Headers */,
+				9D70BE35E416BFEFF5E513705709149E /* OAStackView.h in Headers */,
+				1E5E12ED7D5E9F1D43EA164551039AA0 /* OAStackViewAlignmentStrategy.h in Headers */,
+				AD8815902393F15AAC3BFC092B6D6705 /* OAStackViewDistributionStrategy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C26A9D9761804867532D147CEA1D5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211D4EA06F5920376A069ACB55DF6006 /* AFHTTPRequestOperation.h in Headers */,
+				F4A1512E8C4D8C8194CBB276BF72A552 /* AFHTTPRequestOperationManager.h in Headers */,
+				DECD5915774351B8473476B041DD87D7 /* AFHTTPSessionManager.h in Headers */,
+				F4DCBA2A42A38C6E7A755182DA50DEA2 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				2B8269A87473D9F1259E9BD98E7588D3 /* AFNetworking.h in Headers */,
+				78449FCC01114171AA3CCB45C6666206 /* AFNetworkReachabilityManager.h in Headers */,
+				1CBDB47B210A0C2448C14A610BC6D4D6 /* AFSecurityPolicy.h in Headers */,
+				DB2E92A71137AD2E6993E8B0CE682C89 /* AFURLConnectionOperation.h in Headers */,
+				495F717651B12E6496C72D16BCC28C29 /* AFURLRequestSerialization.h in Headers */,
+				1E310D0CE3BE27EF253B6D822B0AEE5E /* AFURLResponseSerialization.h in Headers */,
+				5CF0E043147B69E77976A2CCADFF18CA /* AFURLSessionManager.h in Headers */,
+				A28588D1CCB5253CF80509F30A1AF1A5 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				399AC825EE10F70364CE7B0AA89F466D /* UIAlertView+AFNetworking.h in Headers */,
+				3A5B54373A45916EC8DE74D060DE5503 /* UIButton+AFNetworking.h in Headers */,
+				903A0E1F82A29D285902CBB5A0828BE9 /* UIImage+AFNetworking.h in Headers */,
+				D4A65C2E29ACB340587FD41196176F8A /* UIImageView+AFNetworking.h in Headers */,
+				F4B03681047157E5C357E584147F5A46 /* UIKit+AFNetworking.h in Headers */,
+				C7ACDDE36465ACAF629FEC233B1BF172 /* UIProgressView+AFNetworking.h in Headers */,
+				C58268D5A4D2A786576E0EAA5B50FB93 /* UIRefreshControl+AFNetworking.h in Headers */,
+				A4EE8D1BEE38B87066BAA1B09A047356 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0533F8D95507E84B21A463B4ACDF9563 /* 1PasswordExtension-OnePasswordExtensionResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB97CB855F6A8DEAF5492A1C3F5E310 /* Build configuration list for PBXNativeTarget "1PasswordExtension-OnePasswordExtensionResources" */;
+			buildPhases = (
+				4B8D738A65F6BBAAA1350D5B9BFCC80A /* Sources */,
+				558223280AF0D87452A8EBDE0D6A4983 /* Frameworks */,
+				D340884E5A3260E9633CE7091A8EDE02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1PasswordExtension-OnePasswordExtensionResources";
+			productName = "1PasswordExtension-OnePasswordExtensionResources";
+			productReference = DA2B2FE0610CEEFF337F413E0DC96AE3 /* OnePasswordExtensionResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3107B58CF796C2C600ACA69E242271A2 /* SSKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD904CF48B1B817C0A7E04336B1E059 /* Build configuration list for PBXNativeTarget "SSKeychain" */;
+			buildPhases = (
+				E3D40EB32B8886F8CCDDBD3E2BC38535 /* Sources */,
+				1F4ECB4E7D61D2A1ABF6514D41607412 /* Frameworks */,
+				879116EC11AD8840BEC40DC1FA6F5E4A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSKeychain;
+			productName = SSKeychain;
+			productReference = AF0A98144538ED1F4DB27BA6D78A1B1D /* libSSKeychain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		410B25DF16EA5C5B3E2698F74F9625FB /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F6B64BF089D072A394601910D14E7B /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				9D44B0AD2D97CB2AA74B614C1E92EDCF /* Sources */,
+				F428C0A5C7AEF469CC7F9B7E6EC0003A /* Frameworks */,
+				E9C26A9D9761804867532D147CEA1D5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 6864D9F3EBF4DB24F2ACDAE292495406 /* libAFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5049468ACF8498718A278E27514477AA /* OAStackView-OAStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A8351D959F6DED9796107C204442F1 /* Build configuration list for PBXNativeTarget "OAStackView-OAStackView" */;
+			buildPhases = (
+				D089FFD60B6C674760A6DE29ADBC34EB /* Sources */,
+				E48AA891C61C4C422E18EE70C9B32FF9 /* Frameworks */,
+				F0061276214D0C4613A24BFF8C6272B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OAStackView-OAStackView";
+			productName = "OAStackView-OAStackView";
+			productReference = DE4DEB6F73DA2975FF37F1B6E5EBC88F /* OAStackView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5679E7BBB5EF83DADED5C302C2854550 /* 1PasswordExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A7DFE3A48B3B04E03A1FD469C9D8D25 /* Build configuration list for PBXNativeTarget "1PasswordExtension" */;
+			buildPhases = (
+				81135F14E788EF4E774AFED5240A311E /* Sources */,
+				77D2319D8A58F38C0B310E66E1FFEBF1 /* Frameworks */,
+				D7B628B3055C40663B7C10FF2600A8C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0882DC4C3EDD051AF87D816C8BE431C /* PBXTargetDependency */,
+			);
+			name = 1PasswordExtension;
+			productName = 1PasswordExtension;
+			productReference = 53D77F741D8EDFD7A7F6E2477648BC3A /* lib1PasswordExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7B613695009E64CC7C722E57C1EDF5A8 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB944FD039E9FCA878E9E0EEC44CDF61 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				F89BFFFF6AF9165090EC8D6DA45E5E57 /* Sources */,
+				13DA1EABA5197E080B324E0372FCBF2F /* Frameworks */,
+				01D1B713459786CB732E13C63448BF1D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = B86333A7E3EDEB582B37E12D858E1B57 /* libSVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D281A9C7BD91D7846882C061E5B07770 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74ED13FA71369B61954379B40519F471 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				E03895605EAACCD9B03DC9D503FD44C1 /* Sources */,
+				F85F91651F26F647EAC8B2EBCB7BA3D8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EDB29CCCCB14301806632F2042F3038 /* PBXTargetDependency */,
+				0BB6AE63F9F1CB32476A8117CCEC2965 /* PBXTargetDependency */,
+				950BBCC9C0CA15F1B9F3F9C9200E5CD8 /* PBXTargetDependency */,
+				EEE0F13C53B7A41882C5C9F8F462442C /* PBXTargetDependency */,
+				86D6E70C70BAA8C750AC297B6AAD651C /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = C332861AA4F29F74A2C509BDA3237C11 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D3BB5634F1F8A227029317A452193F22 /* OAStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59DB3FB3FA1BDCB0AD7E2E8866299AA /* Build configuration list for PBXNativeTarget "OAStackView" */;
+			buildPhases = (
+				2E1387EF74D2E03C9FD4011C72CD428F /* Sources */,
+				2339EAC7DD1D5242393E04609F742D24 /* Frameworks */,
+				E9739945171AC68B8FD6D38CF3DF9DFA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4477CC270AF26079D7BB78D6A44DE37 /* PBXTargetDependency */,
+			);
+			name = OAStackView;
+			productName = OAStackView;
+			productReference = FA96016A0937CB0128AED898A1CA0E87 /* libOAStackView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B43C474D6FBD4D436CE218B31CD193EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5679E7BBB5EF83DADED5C302C2854550 /* 1PasswordExtension */,
+				0533F8D95507E84B21A463B4ACDF9563 /* 1PasswordExtension-OnePasswordExtensionResources */,
+				410B25DF16EA5C5B3E2698F74F9625FB /* AFNetworking */,
+				D3BB5634F1F8A227029317A452193F22 /* OAStackView */,
+				5049468ACF8498718A278E27514477AA /* OAStackView-OAStackView */,
+				D281A9C7BD91D7846882C061E5B07770 /* Pods */,
+				3107B58CF796C2C600ACA69E242271A2 /* SSKeychain */,
+				7B613695009E64CC7C722E57C1EDF5A8 /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D340884E5A3260E9633CE7091A8EDE02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5405566DBB2325701FF55A881C00CB5C /* 1Password.xcassets in Resources */,
+				CA4C74B65B48BBAA49F7E62DF0C2F6B8 /* onepassword-button-light.png in Resources */,
+				68CE3794751504FDF3E134E2D5B9C99E /* onepassword-button-light@2x.png in Resources */,
+				0498091427BE5C7901134D54D0D100F7 /* onepassword-button-light@3x.png in Resources */,
+				750E29EC3B94F7BB7C05E7FEA2A8C0B7 /* onepassword-button.png in Resources */,
+				A58235F6DE57589F67B396E4A94C66D8 /* onepassword-button@2x.png in Resources */,
+				70348FFE4DCF47958F6618F2F22C241D /* onepassword-button@3x.png in Resources */,
+				CD54483A1C92E87582B2252774E725D1 /* onepassword-extension-light@2x~compact.png in Resources */,
+				595CB1469E9A8F941D103823F132E1F7 /* onepassword-extension-light@2x~regular.png in Resources */,
+				E547CB13B7F4100FCBD937C11A140D25 /* onepassword-extension-light@3x~compact.png in Resources */,
+				264C6BE8EE2D2DF01AD0F3E062CA1A0A /* onepassword-extension-light~compact.png in Resources */,
+				7D2E290830576BF77CA6843EFE9731B0 /* onepassword-extension-light~regular.png in Resources */,
+				3498A842025C522CA3D853F0D37844C0 /* onepassword-extension@2x~compact.png in Resources */,
+				6994ED7CC4A7EFB82359DA80A8C2A17E /* onepassword-extension@2x~regular.png in Resources */,
+				093279885A58A17018B1EDC285E1AD63 /* onepassword-extension@3x~compact.png in Resources */,
+				98C08109C4FB81797508B7116F136D99 /* onepassword-extension~compact.png in Resources */,
+				F12914BB95DF9B50D59EA457BB86C31E /* onepassword-extension~regular.png in Resources */,
+				8A956BEF48A5FC89765F7E5AF2FF8C7A /* onepassword-navbar-light.png in Resources */,
+				05E98030009F08D5CBEFB461FC1107EB /* onepassword-navbar-light@2x.png in Resources */,
+				6C070ADD5B4CA081558E8FE4F7646DA9 /* onepassword-navbar-light@3x.png in Resources */,
+				688E1A49A7FF60F5FEA950EE3B64C8F1 /* onepassword-navbar.png in Resources */,
+				03671FBFAB3709D784C7DAF2D35069D1 /* onepassword-navbar@2x.png in Resources */,
+				B23E110919D571315F8CFFD23C119C91 /* onepassword-navbar@3x.png in Resources */,
+				688243C40C3C419A2576BCCBA517E2E4 /* onepassword-toolbar-light.png in Resources */,
+				1933F152FBF581C504E2C92E3E60F498 /* onepassword-toolbar-light@2x.png in Resources */,
+				5E62FC45E5CD17BA3AF291C64B3446E3 /* onepassword-toolbar-light@3x.png in Resources */,
+				51890E3267FBBB80AC93B039EFBE663A /* onepassword-toolbar.png in Resources */,
+				C5B6FADEB003926AA389B72D18E85C61 /* onepassword-toolbar@2x.png in Resources */,
+				F370B0CD96FA6A1682B96B7E1FDA2E14 /* onepassword-toolbar@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0061276214D0C4613A24BFF8C6272B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E1387EF74D2E03C9FD4011C72CD428F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39B07088EE7BAEC63DCCA2F3B19FBE6 /* OAStackView+Constraint.m in Sources */,
+				439B483ACF7F7B8DF5495B88E7C4D100 /* OAStackView+Hiding.m in Sources */,
+				99D0354E76485DE5F18ED81DD9C10749 /* OAStackView+Traversal.m in Sources */,
+				1F5B0BB9FFA0310C8453D00F725A3116 /* OAStackView-dummy.m in Sources */,
+				235BF5DF6980CBE0CDB98ACD34C0929B /* OAStackView.m in Sources */,
+				C2A6803A8F17AF7E952168A412E514FE /* OAStackViewAlignmentStrategy.m in Sources */,
+				615A40F52136A318443DFFDA0436F35B /* OAStackViewDistributionStrategy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8D738A65F6BBAAA1350D5B9BFCC80A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81135F14E788EF4E774AFED5240A311E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FF00476E78B4B5B39487F0FF31A598 /* 1PasswordExtension-dummy.m in Sources */,
+				A5AF1AC3A8A1A294B3ED4677E118FA6D /* OnePasswordExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D44B0AD2D97CB2AA74B614C1E92EDCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876C2EF5FE318346CDCB4BFE25A9D5B2 /* AFHTTPRequestOperation.m in Sources */,
+				472A6BFCC6207D98F787649BDF44A1BE /* AFHTTPRequestOperationManager.m in Sources */,
+				2CF66E8669A348C421E93F2F67C6A61E /* AFHTTPSessionManager.m in Sources */,
+				B2B5DEC33B644F946C59F656AAAA8146 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				B9DAA002CF3E0E8EBE9B6E9A7778CFD4 /* AFNetworking-dummy.m in Sources */,
+				BC7993B7436D4D7FADE6DD554DA52769 /* AFNetworkReachabilityManager.m in Sources */,
+				B12AD2EE044D6F7424F75F1506B516B2 /* AFSecurityPolicy.m in Sources */,
+				E6DD6ABB4FC13B60FA54C950FB6B262B /* AFURLConnectionOperation.m in Sources */,
+				3033C63AC334D346E9461D0942D8FB69 /* AFURLRequestSerialization.m in Sources */,
+				CAA0F8074B35A2F73890310EC4521A0D /* AFURLResponseSerialization.m in Sources */,
+				6CC4B79C1FEE1E7B3F2860ADA479D381 /* AFURLSessionManager.m in Sources */,
+				AE607E682415FAA160B33C7C13A8475B /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				9B47A1441B897F71505D8BE670B0940B /* UIAlertView+AFNetworking.m in Sources */,
+				99E82D6DC032555656E37AF2367B20D3 /* UIButton+AFNetworking.m in Sources */,
+				D070B784EFCA099C141EEAB69FBCC870 /* UIImageView+AFNetworking.m in Sources */,
+				FD6F966F458CEE40B07A2367BA3BC8EC /* UIProgressView+AFNetworking.m in Sources */,
+				854BC4449D8CAD0F2799B021D1914C3B /* UIRefreshControl+AFNetworking.m in Sources */,
+				9A04E971065AF4281E43947994A53D07 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D089FFD60B6C674760A6DE29ADBC34EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03895605EAACCD9B03DC9D503FD44C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3096AD0D548C02124BF5245674472D4C /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D40EB32B8886F8CCDDBD3E2BC38535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AB9AD992C63386F98B2C94A226810C /* SSKeychain-dummy.m in Sources */,
+				D707B60D2285ECF13592A5F1E9B14890 /* SSKeychain.m in Sources */,
+				8D50E325013120F8B31C2A8A552E6415 /* SSKeychainQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89BFFFF6AF9165090EC8D6DA45E5E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD068508E6255E984820A736F0326FC /* SVIndefiniteAnimatedView.m in Sources */,
+				124BFC1BFBC8D3D74E1B7600ED5B34D9 /* SVProgressHUD-dummy.m in Sources */,
+				2FF94865CDE6C167FCEC4C78AC132C73 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BB6AE63F9F1CB32476A8117CCEC2965 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 410B25DF16EA5C5B3E2698F74F9625FB /* AFNetworking */;
+			targetProxy = B31D183F7F889567C92728B8BD1B1A8C /* PBXContainerItemProxy */;
+		};
+		1EDB29CCCCB14301806632F2042F3038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = 1PasswordExtension;
+			target = 5679E7BBB5EF83DADED5C302C2854550 /* 1PasswordExtension */;
+			targetProxy = 5CEC52C79E3E67B8DE91C7D5DAB9CAB1 /* PBXContainerItemProxy */;
+		};
+		86D6E70C70BAA8C750AC297B6AAD651C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 7B613695009E64CC7C722E57C1EDF5A8 /* SVProgressHUD */;
+			targetProxy = 78045A878DF0A6B253C88E090F57C743 /* PBXContainerItemProxy */;
+		};
+		950BBCC9C0CA15F1B9F3F9C9200E5CD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAStackView;
+			target = D3BB5634F1F8A227029317A452193F22 /* OAStackView */;
+			targetProxy = 0C2B18A5D9BD489B891BDE306D2A4A6A /* PBXContainerItemProxy */;
+		};
+		D0882DC4C3EDD051AF87D816C8BE431C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "1PasswordExtension-OnePasswordExtensionResources";
+			target = 0533F8D95507E84B21A463B4ACDF9563 /* 1PasswordExtension-OnePasswordExtensionResources */;
+			targetProxy = 367455CB249A1B88547A04CF40A55E8C /* PBXContainerItemProxy */;
+		};
+		EEE0F13C53B7A41882C5C9F8F462442C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSKeychain;
+			target = 3107B58CF796C2C600ACA69E242271A2 /* SSKeychain */;
+			targetProxy = 104A813896F377FE250A5E84E9FE1C84 /* PBXContainerItemProxy */;
+		};
+		F4477CC270AF26079D7BB78D6A44DE37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OAStackView-OAStackView";
+			target = 5049468ACF8498718A278E27514477AA /* OAStackView-OAStackView */;
+			targetProxy = D18044C5517E78904565D1FF79153898 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17B619F24F28ECC335BB43F180DA021F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03EFB77123FE3F3FF3E64E88AFB82A34 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1B760F0C8A302CCE0593B10F2DBBB709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0484A75744A0B5C446B474CE39977054 /* 1PasswordExtension.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = OnePasswordExtensionResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		20A961BB269021BD908211CBC59B0C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		20DFD6377B214E8B84E6BB18030D8DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 686F4945E28409294C629C41D12A185C /* OAStackView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = OAStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4681A0DFC29E7540E317BEFC605C4D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0484A75744A0B5C446B474CE39977054 /* 1PasswordExtension.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/1PasswordExtension/1PasswordExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7116463352E4727A7E1E8558581D1C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD147DDFF9F48C41FB1270201F8B751B /* SSKeychain.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSKeychain/SSKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		78EB4D9156BD5EFB4DFC0AD9639401D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0484A75744A0B5C446B474CE39977054 /* 1PasswordExtension.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/1PasswordExtension/1PasswordExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8000185605B9D7C667001CBEC04F93B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		89B8DBA919676542DC16EC277C1C088A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D735BBCEB23623FAC7BF0A3B600B16C /* AFNetworking.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B8C7ABC4F255D132F031E3E7CF422FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0484A75744A0B5C446B474CE39977054 /* 1PasswordExtension.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = OnePasswordExtensionResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D6F4B4CAFDAADB7F0C8537FEA669CF9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 686F4945E28409294C629C41D12A185C /* OAStackView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OAStackView/OAStackView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DD610FB9F1D5F1C352FFBFCFA2B80059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 686F4945E28409294C629C41D12A185C /* OAStackView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OAStackView/OAStackView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DE2AA43792EE6A366AD6813340B56E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D735BBCEB23623FAC7BF0A3B600B16C /* AFNetworking.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E7F67C3F269818371C7ECCBC36D362B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD147DDFF9F48C41FB1270201F8B751B /* SSKeychain.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSKeychain/SSKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EFBA0E87E20801EE0A7AE6C06D85FE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03EFB77123FE3F3FF3E64E88AFB82A34 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F80C5FD0D3622D74C6ABC2C5BC447053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 686F4945E28409294C629C41D12A185C /* OAStackView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = OAStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB97CB855F6A8DEAF5492A1C3F5E310 /* Build configuration list for PBXNativeTarget "1PasswordExtension-OnePasswordExtensionResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B760F0C8A302CCE0593B10F2DBBB709 /* Debug */,
+				B8C7ABC4F255D132F031E3E7CF422FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F6B64BF089D072A394601910D14E7B /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2AA43792EE6A366AD6813340B56E37 /* Debug */,
+				89B8DBA919676542DC16EC277C1C088A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD904CF48B1B817C0A7E04336B1E059 /* Build configuration list for PBXNativeTarget "SSKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F67C3F269818371C7ECCBC36D362B5 /* Debug */,
+				7116463352E4727A7E1E8558581D1C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74ED13FA71369B61954379B40519F471 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20A961BB269021BD908211CBC59B0C35 /* Debug */,
+				8000185605B9D7C667001CBEC04F93B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A7DFE3A48B3B04E03A1FD469C9D8D25 /* Build configuration list for PBXNativeTarget "1PasswordExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4681A0DFC29E7540E317BEFC605C4D82 /* Debug */,
+				78EB4D9156BD5EFB4DFC0AD9639401D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59DB3FB3FA1BDCB0AD7E2E8866299AA /* Build configuration list for PBXNativeTarget "OAStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F4B4CAFDAADB7F0C8537FEA669CF9F /* Debug */,
+				DD610FB9F1D5F1C352FFBFCFA2B80059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A8351D959F6DED9796107C204442F1 /* Build configuration list for PBXNativeTarget "OAStackView-OAStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20DFD6377B214E8B84E6BB18030D8DC8 /* Debug */,
+				F80C5FD0D3622D74C6ABC2C5BC447053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB944FD039E9FCA878E9E0EEC44CDF61 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBA0E87E20801EE0A7AE6C06D85FE2F /* Debug */,
+				17B619F24F28ECC335BB43F180DA021F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
